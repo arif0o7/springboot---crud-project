@@ -40,7 +40,7 @@ public class RestApiController {
         User user= userService.findById(id);
         if (user == null){
             logger.error("User Id with {id} Not Found", id);
-            return new ResponseEntity(new CustomErrorType("User ID with"+id+"Not Found"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity(new CustomErrorType("User ID with"+id+"Not Found "), HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<User>(user, HttpStatus.OK);
     }
