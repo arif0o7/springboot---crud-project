@@ -1,0 +1,15 @@
+# Maven Targets
+target/
+bin/
+generated/
+WEB-INF/classes
+WEB-INF/lib
+.gwt/
+
+# Eclipse Settings
+.settings/
+.metadata/
+.classpath
+.factorypath
+.project
+.launch
